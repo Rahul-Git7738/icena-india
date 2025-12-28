@@ -235,7 +235,7 @@ function Criteria() {
         viewport={{ once: true, amount: 0.3 }}
         className="flex justify-center mt-10 "
       >
-        <Button color="black" img="trophy" href="/awards">
+        <Button color="black" img="trophy" href="/edition5/awards">
           Nominate
         </Button>
       </motion.div>
