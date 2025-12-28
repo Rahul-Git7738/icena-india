@@ -186,7 +186,7 @@ export const Vc2 = () => {
                             contributions across various domains.
                           </p>
                           <div className="sm:scale-100 scale-80">
-                            <Button color="green" img="arrow" href="/edition5/awards">
+                            <Button color="green" img="arrow" src="/awards">
                               Nominate
                             </Button>
                           </div>

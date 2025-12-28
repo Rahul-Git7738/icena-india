@@ -269,7 +269,7 @@ const Awardnrec = () => {
         viewport={{ once: true, amount: 0.3 }}
         className="flex w-full justify-center mt-[100px]"
       >
-        <Button href="/edition5/awards" color="black" img="trophy">
+        <Button src="/awards" color="black" img="trophy">
           Nominate
         </Button>
       </motion.div> */}
