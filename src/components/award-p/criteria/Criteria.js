@@ -181,8 +181,8 @@ function Criteria() {
                 <button
                   key={index}
                   className={`w-[48%] max-h-fit flex align-middle justify-center px-8 py-6 my-4 items-center rounded-2xl shadow-sm max-md:px-5 text-center ${selectedHeading === heading
-                      ? "bg-[#ccff00]  hover-box-shadow-2    "
-                      : "bg-white"
+                    ? "bg-[#ccff00]  hover-box-shadow-2    "
+                    : "bg-white"
                     }`}
                   onClick={() => handleHeadingClick(heading)}
                 >
@@ -235,7 +235,7 @@ function Criteria() {
         viewport={{ once: true, amount: 0.3 }}
         className="flex justify-center mt-10 "
       >
-        <Button color="black" img="trophy" href="/edition5/awards">
+        <Button color="black" img="trophy" href="/awards">
           Nominate
         </Button>
       </motion.div>
