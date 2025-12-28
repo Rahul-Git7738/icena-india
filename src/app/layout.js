@@ -3,7 +3,6 @@ import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import { inter } from "@/styles/fonts";
 import logo from "../../public/logo.svg";
-import LinkFixer from "@/components/LinkFixer"; // Import the new component
 
 export const metadata = {
   title: "IE&A",
