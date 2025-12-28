@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import { inter } from "@/styles/fonts";
 import logo from "../../public/logo.svg";
+import LinkFixer from "@/components/LinkFixer"; // Import the new component
 
 export const metadata = {
   title: "IE&A",
@@ -12,7 +13,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <base href="/edition5/" />
       <body className={`text-foreground bg-background ${inter.className}`}>
         <Navbar />
         {children}
