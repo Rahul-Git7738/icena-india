@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/edition5',
   // next.config.js
 module.exports = {
   basePath: '/edition5',
