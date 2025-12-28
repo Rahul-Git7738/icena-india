@@ -51,7 +51,7 @@ function Navbar() {
         <div className="my-5 border-1 border-zinc-400 rounded-full sm:px-10 w-100 backdrop-blur bg-black/30 px-7">
           <div className="flex items-center justify-between h-14 sm:h-16">
             <div className="flex items-center">
-              <a href="/" className="text-white text-xl font-bold">
+              <a href="/edition5/" className="text-white text-xl font-bold">
                 <Image src={logo} alt="logo" width={100} height={100} />
               </a>
             </div>
@@ -70,12 +70,12 @@ function Navbar() {
                 className={`flex space-x-8 text-white font-medium ${work_sans.className}`}
               >
                 <li className="relative group">
-                  <a href="/about" className=" hover:text-[#ccff00]">
+                  <a href="/edition5/about" className=" hover:text-[#ccff00]">
                     ABOUT
                   </a>
                 </li>
                 <li style={{ display: navigation ? "none" : "flex" }}>
-                  <a href="/awards" className=" hover:text-[#ccff00]">
+                  <a href="/edition5/awards" className=" hover:text-[#ccff00]">
                     AWARDS
                   </a>
                   {/* <div className="absolute top-full left-0 w-40 bg-white text-white z-10 hidden group-hover:block">
@@ -88,17 +88,17 @@ function Navbar() {
                   </div> */}
                 </li>
                 <li className="relative group">
-                  <a href="/speakers" className=" hover:text-[#ccff00]">
+                  <a href="/edition5/speakers" className=" hover:text-[#ccff00]">
                     SPEAKERS
                   </a>
                 </li>
                 <li className="relative group">
-                  <a href="/sponsors" className=" hover:text-[#ccff00]">
+                  <a href="/edition5/sponsors" className=" hover:text-[#ccff00]">
                     SPONSORS
                   </a>
                 </li>
                 <li style={{ display: navigation ? "none" : "flex" }}>
-                  <a href="/register" className=" hover:text-[#ccff00]">
+                  <a href="/edition5/register" className=" hover:text-[#ccff00]">
                     REGISTER
                   </a>
                 </li>
@@ -115,7 +115,7 @@ function Navbar() {
                 </li>
 
                 <li>
-                  <a href="/vote" className=" hover:text-[#ccff00]">
+                  <a href="/edition5/vote" className=" hover:text-[#ccff00]">
                     VOTE
                   </a>
                 </li>
@@ -146,12 +146,12 @@ function Navbar() {
             className={`space-y-6 text-white text-center font-medium text-4xl ${work_sans.className}`}
           >
             <li className="relative group">
-              <a href="/about" className=" hover:text-[#ccff00]">
+              <a href="/edition5/about" className=" hover:text-[#ccff00]">
                 ABOUT
               </a>
             </li>
             <li style={{ display: navigation ? "none" : "flex" }}>
-              <a href="/awards" className=" hover:text-[#ccff00]">
+              <a href="/edition5/awards" className=" hover:text-[#ccff00]">
                 AWARDS
               </a>
               {/* <div className="absolute top-full left-0 w-40 bg-white text-white z-10 hidden group-hover:block">
@@ -164,17 +164,17 @@ function Navbar() {
                   </div> */}
             </li>
             <li className="relative group">
-              <a href="/speakers" className=" hover:text-[#ccff00]">
+              <a href="/edition5/speakers" className=" hover:text-[#ccff00]">
                 SPEAKERS
               </a>
             </li>
             <li className="relative group">
-              <a href="/sponsors" className=" hover:text-[#ccff00]">
+              <a href="/edition5/sponsors" className=" hover:text-[#ccff00]">
                 SPONSORS
               </a>
             </li>
             <li style={{ display: navigation ? "none" : "flex" }}>
-              <a href="/register" className=" hover:text-[#ccff00]">
+              <a href="/edition5/register" className=" hover:text-[#ccff00]">
                 REGISTER
               </a>
             </li>
@@ -190,7 +190,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/vote" className=" hover:text-[#ccff00]">
+              <a href="/edition5/vote" className=" hover:text-[#ccff00]">
                 VOTE
               </a>
             </li>
