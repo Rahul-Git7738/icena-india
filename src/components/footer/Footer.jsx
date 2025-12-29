@@ -12,7 +12,7 @@ function Footer() {
           <div className=" w-[100%]">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div>
-                <a href="/about">
+                <a href="/edition5/about">
                   <h2 className="text-lg font-bold mb-4">ABOUT</h2>
                 </a>
                 <ul>
