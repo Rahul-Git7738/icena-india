@@ -61,10 +61,10 @@ const Awardnrec = () => {
   return (
     <div
       className="flex flex-col bg-black px-20 py-20 w-full  max-md:px-5 max-md:max-w-full"
-    // style={{
-    //   background:
-    //     "linear-gradient(192deg, rgba(255, 255, 255, 0.15) 0%, rgba(81, 182, 255, 0.15) 14.5%, rgba(81, 182, 255, 0.15) 76%, rgba(255, 255, 255, 0.15) 100%)",
-    // }}
+      // style={{
+      //   background:
+      //     "linear-gradient(192deg, rgba(255, 255, 255, 0.15) 0%, rgba(81, 182, 255, 0.15) 14.5%, rgba(81, 182, 255, 0.15) 76%, rgba(255, 255, 255, 0.15) 100%)",
+      // }}
     >
       <motion.div
         className={`self-center mt-20 text-6xl text-center text-white leading-[62.08px] max-md:mt-10 max-md:max-w-full max-md:text-4xl  ${anton.className} `}
@@ -269,7 +269,7 @@ const Awardnrec = () => {
         viewport={{ once: true, amount: 0.3 }}
         className="flex w-full justify-center mt-[100px]"
       >
-        <Button src="/awards" color="black" img="trophy">
+        <Button href="/awards" color="black" img="trophy">
           Nominate
         </Button>
       </motion.div> */}

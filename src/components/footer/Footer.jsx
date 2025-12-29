@@ -12,88 +12,88 @@ function Footer() {
           <div className=" w-[100%]">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div>
-                <a href="/edition5/about">
+                <a href="/about">
                   <h2 className="text-lg font-bold mb-4">ABOUT</h2>
                 </a>
                 <ul>
                   <li>
-                    <a href="/edition5/about" className="hover:text-gray-300">
+                    <a href="/about" className="hover:text-gray-300">
                       Why Attend
                     </a>
                   </li>
                   <li>
-                    <a href="/edition5/about" className="hover:text-gray-300">
+                    <a href="/about" className="hover:text-gray-300">
                       What to Expect
                     </a>
                   </li>
                   <li>
-                    <a href="/edition5/about" className="hover:text-gray-300">
+                    <a href="/about" className="hover:text-gray-300">
                       Venue
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <a href="/edition5/awards">
+                <a href="/awards">
                   <h2 className="text-lg font-bold mb-4">AWARDS</h2>
                 </a>
                 <ul>
                   <li>
-                    <a href="/edition5/awards" className="hover:text-gray-300">
+                    <a href="/awards" className="hover:text-gray-300">
                       Categories
                     </a>
                   </li>
                   <li>
-                    <a href="/edition5/awards" className="hover:text-gray-300">
+                    <a href="/awards" className="hover:text-gray-300">
                       Juries
                     </a>
                   </li>
                   <li>
-                    <a href="/edition5/awards" className="hover:text-gray-300">
+                    <a href="/awards" className="hover:text-gray-300">
                       Nominate
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <a href="/edition5/speakers">
+                <a href="/speakers">
                   <h2 className="text-lg font-bold mb-4">SPEAKERS</h2>
                 </a>
                 <ul>
                   <li>
-                    <a href="/edition5/speakers" className="hover:text-gray-300">
+                    <a href="/speakers" className="hover:text-gray-300">
                       Speakers
                     </a>
                   </li>
                   <li>
-                    <a href="/edition5/register" className="hover:text-gray-300">
+                    <a href="/register" className="hover:text-gray-300">
                       Become a Speaker
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <a href="/edition5/sponsors">
+                <a href="/sponsors">
                   <h2 className="text-lg font-bold mb-4">SPONSORS</h2>
                 </a>
                 <ul>
                   <li>
-                    <a href="/edition5/sponsors" className="hover:text-gray-300">
+                    <a href="/sponsors" className="hover:text-gray-300">
                       Sponsors
                     </a>
                   </li>
                   <li>
-                    <a href="/edition5/sponsors" className="hover:text-gray-300">
+                    <a href="/sponsors" className="hover:text-gray-300">
                       Media Partner
                     </a>
                   </li>
                   <li>
-                    <a href="/edition5/register" className="hover:text-gray-300">
+                    <a href="/register" className="hover:text-gray-300">
                       Become a Sponsor
                     </a>
                   </li>
                   <li>
-                    <a href="/edition5/register" className="hover:text-gray-300">
+                    <a href="/register" className="hover:text-gray-300">
                       Become a Media Partner
                     </a>
                   </li>

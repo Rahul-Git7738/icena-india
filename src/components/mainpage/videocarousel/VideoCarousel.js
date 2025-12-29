@@ -186,7 +186,7 @@ export const VideoCarousel = () => {
                             contributions across various domains.
                           </p>
                           <div className="sm:scale-100 scale-80">
-                            <Button color="green" img="arrow" src="/awards">
+                            <Button color="green" img="arrow" href="/awards">
                               Nominate
                             </Button>
                           </div>
